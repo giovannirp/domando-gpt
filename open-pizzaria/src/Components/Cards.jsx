@@ -1,3 +1,4 @@
+import "./Cards.css"
 const Cards = () => {
     return (
       <section className="sobre-pizzaria">
