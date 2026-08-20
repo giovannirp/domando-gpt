@@ -1,11 +1,13 @@
 import "./Header.css"
 
-const Header = () => {
+const Header = (props) => {
+    console.log(props);
+
     return (
         <>
             <header className="header-pizzaria">
-                <h1>🍕 Bem-vindo à OpenPizzaria!</h1>
-                <p>As melhores pizzas, feitas com carinho e muito sabor para você!</p>
+                <h1>{props.titleHeader}</h1>
+                <p>{props.textHeader}</p>
             </header>
             <hr className="divider" />
         </>
