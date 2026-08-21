@@ -1,8 +1,8 @@
 import Header from "./Components/Header";
+import Menu from "./Components/Menu";
 import Banner from "./Components/Banner"
 import Cards from "./Components/Cards";
 import Footer from "./Components/Footer"
-import Menu from "./Components/Menu";
 import "./Global.css"
 
 function App() {
