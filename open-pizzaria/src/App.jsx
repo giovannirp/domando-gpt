@@ -10,7 +10,7 @@ function App() {
   return (
     <div className="container">
       <Header 
-        titleHeader="🍕 Bem-vindo à OpenPizzaria!" 
+        titleHeader="🍕 teste Bem-vindo à OpenPizzaria!" 
         textHeader="As melhores pizzas, feitas com carinho e muito sabor para você!" 
       />
 
