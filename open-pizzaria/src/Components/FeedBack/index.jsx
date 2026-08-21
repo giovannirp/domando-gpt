@@ -41,6 +41,14 @@ const feedbacks = [
         nota: 4.5,
         comentario:
             "Uma ótima experiência. A equipa foi bastante atenciosa e o resultado final ficou excelente."
+    },
+    {
+        id: 6,
+        nome: "Robertão Saraiva",
+        imagem: "https://i.pravatar.cc/80?img=10",
+        nota: 3,
+        comentario:
+            "Muito Bom!"
     }
 ];
 
@@ -51,7 +59,7 @@ const FeedBack = () => {
     return (
         <section className="feedBack">
             {feedbacks.map((feedback) => 
-                <article className="contentBack">
+                <article className="contentBack" key={feedback.id}>
                     <img 
                         src={feedback.imagem}
                         width={80}
