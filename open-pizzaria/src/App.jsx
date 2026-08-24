@@ -1,10 +1,8 @@
 import Header from "./Components/Header";
 import Menu from "./Components/Menu";
-import Banner from "./Components/Banner"
-import Cards from "./Components/Cards";
 import Footer from "./Components/Footer"
+import Router from "./Router";
 import "./Global.css"
-import FeedBack from "./Components/FeedBack";
 
 function App() {
 
@@ -15,13 +13,7 @@ function App() {
         textHeader="As melhores pizzas, feitas com carinho e muito sabor para você!" 
       />
 
-      <Menu />
-
-      <Banner /> 
-
-      <Cards />
-
-      <FeedBack />
+      <Router />
 
       <Footer titleFooter="OpenPizzaria! - Todos os direitos reservados - 2026" />
      
