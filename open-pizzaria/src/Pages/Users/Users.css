@@ -1,0 +1,60 @@
+.containerUsers {
+  padding: 40px 20px;
+  background-color: #f5f7fa;
+  font-family: Arial, sans-serif;
+  color: #333;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.containerUsers h1 {
+  margin: 0 0 10px;
+  color: #222;
+  font-size: 32px;
+}
+
+.containerUsers > a {
+  margin-bottom: 30px;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 600;
+  transition: 0.2s;
+}
+
+.containerUsers > a:hover {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.contentUsers {
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Card do usuário */
+.contentUsers article {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e5e7eb;
+
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.contentUsers article:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.contentUsers article strong {
+  font-size: 17px;
+  color: #374151;
+}
